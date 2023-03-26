@@ -224,7 +224,7 @@ body {
   gap: 24px;
 }
 .about-item {
-  width: calc((100% -24px) / 4);
+  flex-basis: calc((100% -24px) / 4);
 }
 .about-subtitle {
   color: var(--main-text-color);
